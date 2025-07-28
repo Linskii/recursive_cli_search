@@ -1,7 +1,14 @@
 [project]
 name = "recursive_cli_search"
 version = "0.1.0"
-dependencies = []
+description = "A CLI tool to recursively search through other CLI help docs"
+readme = "README.md"
+authors = [{name = "Paul Link", email = "paullink@student.kit.edu"}]
+license = {text = "MIT"}
+dependencies = ["click"]
+
+[project.scripts]
+recursive-cli-search = "recursive_cli_search.cli:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]
