@@ -12,6 +12,7 @@ version = "0.1.0"
 pytest = ">=8.4.1,<9"
 black = ">=25.1.0,<26"
 pre-commit = ">=4.2.0,<5"
+click = ">=8.2.1,<9"
 
 [pypi-dependencies]
 recursive_cli_search = { path = ".", editable = true }

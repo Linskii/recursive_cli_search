@@ -612,7 +612,9 @@ packages:
 - pypi: .
   name: recursive-cli-search
   version: 0.1.0
-  sha256: 9588e840f005612bb451a07aa84665b04b4252f913dbda947d4c1196b910b135
+  sha256: 600d1a0ccf830e9cbc6b49d02c5e318ac7270e8329835a60ce227658ba020278
+  requires_dist:
+  - click
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-80.9.0-pyhff2d567_0.conda
   sha256: 972560fcf9657058e3e1f97186cc94389144b46dbdf58c807ce62e83f977e863
